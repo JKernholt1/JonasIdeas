@@ -54,7 +54,6 @@ private Person[] persons = new Person[0];
         }
     }
 
-//-------- not finished methods below
 
     public person[] personFindById(int personId){ // should return the person that has the matching personId as the passed parameter.
 //personId, firstName, lastName
@@ -64,20 +63,13 @@ private Person[] persons = new Person[0];
         return person[];
     }
 
-    public String createPerson(String person[]){ // should create a new Person, adds newly created object in the array,
-        // and then return the created object.
-//personId, firstName, lastName
-        person = new person();
-
-//add various values to their respective parts in person. Not finished.
-
-        return person;
-    }
 
     public void clearPerson(){ //Clears all person objects from the Person array.
       Person persons[] = {};
 
     }
+
+//-------- not finished methods below
 
     public void removePerson(){ //Removes person from the persons Array
 

@@ -9,6 +9,8 @@ public class Todo {
     public Todo(int todoId, String description) {
         this.todoId = todoId;
         this.description = description;
+        this.done = done;
+        this.assignee = assignee;
 
     }
     public int getTodoId() {
